@@ -23,6 +23,8 @@ int Result= Linear_Search(pArray,size,key);
 if(Result==-1)
 printf("Element not found\n");
 else printf("Element found at index %d : ", Result);
+    free(pArray);
+    pArray=NULL;
 return 0;
 
 }
