@@ -1,6 +1,6 @@
 #include<stdio.h>
 
-int Binary_Search(int [],int,int);
+int Binary_Search(int [],int,int); // prototype of Binary search
 int main()
 {
 int n ,k;
